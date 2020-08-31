@@ -1,0 +1,6 @@
+framework module Pods_ToukhRestaurant {
+  umbrella header "Pods-ToukhRestaurant-umbrella.h"
+
+  export *
+  module * { export * }
+}

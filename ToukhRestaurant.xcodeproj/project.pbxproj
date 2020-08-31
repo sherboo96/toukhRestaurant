@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB9EF2343570D15D6F3454D /* Pods_ToukhRestaurant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3D34A7098585C92692CD22 /* Pods_ToukhRestaurant.framework */; };
+		91310DFC24FDB06500C2F53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91310DFB24FDB06500C2F53A /* AppDelegate.swift */; };
+		91310DFE24FDB06500C2F53A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91310DFD24FDB06500C2F53A /* SceneDelegate.swift */; };
+		91310E0024FDB06500C2F53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91310DFF24FDB06500C2F53A /* ViewController.swift */; };
+		91310E0324FDB06500C2F53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91310E0124FDB06500C2F53A /* Main.storyboard */; };
+		91310E0524FDB06A00C2F53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91310E0424FDB06A00C2F53A /* Assets.xcassets */; };
+		91310E0824FDB06A00C2F53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91310E0624FDB06A00C2F53A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EF12A66368F839DADEBF83A /* Pods-ToukhRestaurant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToukhRestaurant.release.xcconfig"; path = "Target Support Files/Pods-ToukhRestaurant/Pods-ToukhRestaurant.release.xcconfig"; sourceTree = "<group>"; };
+		91310DF824FDB06500C2F53A /* ToukhRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToukhRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91310DFB24FDB06500C2F53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91310DFD24FDB06500C2F53A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91310DFF24FDB06500C2F53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91310E0224FDB06500C2F53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91310E0424FDB06A00C2F53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91310E0724FDB06A00C2F53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91310E0924FDB06A00C2F53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3D34A7098585C92692CD22 /* Pods_ToukhRestaurant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToukhRestaurant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66257B0DBB21B49A6F26ABC /* Pods-ToukhRestaurant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToukhRestaurant.debug.xcconfig"; path = "Target Support Files/Pods-ToukhRestaurant/Pods-ToukhRestaurant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91310DF524FDB06500C2F53A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB9EF2343570D15D6F3454D /* Pods_ToukhRestaurant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91310DEF24FDB06500C2F53A = {
+			isa = PBXGroup;
+			children = (
+				91310DFA24FDB06500C2F53A /* ToukhRestaurant */,
+				91310DF924FDB06500C2F53A /* Products */,
+				FB4CEE9C45458DAA287E99FC /* Pods */,
+				DB037E3C94AB1F6CECE3C40D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91310DF924FDB06500C2F53A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91310DF824FDB06500C2F53A /* ToukhRestaurant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91310DFA24FDB06500C2F53A /* ToukhRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				91310DFB24FDB06500C2F53A /* AppDelegate.swift */,
+				91310DFD24FDB06500C2F53A /* SceneDelegate.swift */,
+				91310DFF24FDB06500C2F53A /* ViewController.swift */,
+				91310E0124FDB06500C2F53A /* Main.storyboard */,
+				91310E0424FDB06A00C2F53A /* Assets.xcassets */,
+				91310E0624FDB06A00C2F53A /* LaunchScreen.storyboard */,
+				91310E0924FDB06A00C2F53A /* Info.plist */,
+			);
+			path = ToukhRestaurant;
+			sourceTree = "<group>";
+		};
+		DB037E3C94AB1F6CECE3C40D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D34A7098585C92692CD22 /* Pods_ToukhRestaurant.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB4CEE9C45458DAA287E99FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F66257B0DBB21B49A6F26ABC /* Pods-ToukhRestaurant.debug.xcconfig */,
+				1EF12A66368F839DADEBF83A /* Pods-ToukhRestaurant.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91310DF724FDB06500C2F53A /* ToukhRestaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91310E0C24FDB06A00C2F53A /* Build configuration list for PBXNativeTarget "ToukhRestaurant" */;
+			buildPhases = (
+				7D6F41CC3A191B8243C9B03C /* [CP] Check Pods Manifest.lock */,
+				91310DF424FDB06500C2F53A /* Sources */,
+				91310DF524FDB06500C2F53A /* Frameworks */,
+				91310DF624FDB06500C2F53A /* Resources */,
+				A7D46AA0657E2F0D56542CD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToukhRestaurant;
+			productName = ToukhRestaurant;
+			productReference = 91310DF824FDB06500C2F53A /* ToukhRestaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91310DF024FDB06500C2F53A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Mahmoud Sherbeny";
+				TargetAttributes = {
+					91310DF724FDB06500C2F53A = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 91310DF324FDB06500C2F53A /* Build configuration list for PBXProject "ToukhRestaurant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91310DEF24FDB06500C2F53A;
+			productRefGroup = 91310DF924FDB06500C2F53A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91310DF724FDB06500C2F53A /* ToukhRestaurant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91310DF624FDB06500C2F53A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91310E0824FDB06A00C2F53A /* LaunchScreen.storyboard in Resources */,
+				91310E0524FDB06A00C2F53A /* Assets.xcassets in Resources */,
+				91310E0324FDB06500C2F53A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D6F41CC3A191B8243C9B03C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToukhRestaurant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D46AA0657E2F0D56542CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToukhRestaurant/Pods-ToukhRestaurant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToukhRestaurant/Pods-ToukhRestaurant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToukhRestaurant/Pods-ToukhRestaurant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91310DF424FDB06500C2F53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91310E0024FDB06500C2F53A /* ViewController.swift in Sources */,
+				91310DFC24FDB06500C2F53A /* AppDelegate.swift in Sources */,
+				91310DFE24FDB06500C2F53A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91310E0124FDB06500C2F53A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91310E0224FDB06500C2F53A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91310E0624FDB06A00C2F53A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91310E0724FDB06A00C2F53A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91310E0A24FDB06A00C2F53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91310E0B24FDB06A00C2F53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91310E0D24FDB06A00C2F53A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66257B0DBB21B49A6F26ABC /* Pods-ToukhRestaurant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4H24PLLCD;
+				INFOPLIST_FILE = ToukhRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherbeny.ToukhRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91310E0E24FDB06A00C2F53A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF12A66368F839DADEBF83A /* Pods-ToukhRestaurant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4H24PLLCD;
+				INFOPLIST_FILE = ToukhRestaurant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sherbeny.ToukhRestaurant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91310DF324FDB06500C2F53A /* Build configuration list for PBXProject "ToukhRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91310E0A24FDB06A00C2F53A /* Debug */,
+				91310E0B24FDB06A00C2F53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91310E0C24FDB06A00C2F53A /* Build configuration list for PBXNativeTarget "ToukhRestaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91310E0D24FDB06A00C2F53A /* Debug */,
+				91310E0E24FDB06A00C2F53A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91310DF024FDB06500C2F53A /* Project object */;
+}
